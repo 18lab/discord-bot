@@ -7,9 +7,9 @@ import (
 )
 
 type Configuration struct {
-	Token    string `json:"token"`
-	ClientID string `json:"clientID"`
-	GuildID  string `json:"guildID"`
+	Token   string `json:"token"`
+	AppID   string `json:"appID"`
+	GuildID string `json:"guildID"`
 }
 
 func Load(filename string) *Configuration {

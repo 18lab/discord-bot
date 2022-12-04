@@ -1,6 +1,5 @@
 # Configuration
 .DS_Store
-config*.json
 
 # Executables
 *.exe
